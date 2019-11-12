@@ -42,6 +42,12 @@ public:
 /*
 演示过程：
 
+Tserial *com;
+//总数据
+short MSBLSB = 0;
+//分数据
+unsigned char MSB = 0;
+
 com = new Tserial();//创建串口对象
 	if (com != 0)
 	{
